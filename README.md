@@ -1,4 +1,4 @@
-# Point Control System with Spring Boot
+# User Point Control System with Spring Boot
 
 ​																						System created by me for [Santander Bootcamp](https://app.becas-santander.com/pt-BR/program/santanderbootcamp)
 
