@@ -1,7 +1,5 @@
 # Check Point System with Spring Boot
 
-<img src="C:\Users\Dudu\Desktop\check point.png" alt="check point" style="zoom:50%;" />
-
 ​																						System created by me for [Santander Bootcamp](https://app.becas-santander.com/pt-BR/program/santanderbootcamp)
 
 ## Technologies:
