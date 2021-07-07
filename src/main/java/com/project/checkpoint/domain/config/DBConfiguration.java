@@ -24,7 +24,7 @@ public class DBConfiguration {
         System.out.println("DB connection for DEV - H2");
         System.out.println(driverClassName);
         System.out.println(url);
-        return "DB Connection to DB_TEST";
+        return "DB Connection to MYSQL_TEST - Test instance";
     }
 
     @Profile("prod")
@@ -33,7 +33,7 @@ public class DBConfiguration {
         System.out.println("DB connection for Production - MySQL");
         System.out.println(driverClassName);
         System.out.println(url);
-        return "DB Connection to MySQL PROD";
+        return "DB Connection to MYSQL_PROD - Production instance";
     }
 
 }
