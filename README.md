@@ -10,6 +10,7 @@
 - [Spring Validation](https://spring.io/guides/gs/validating-form-input/)
 - [Swagger](https://swagger.io/specification/)
 - [Lombok](https://projectlombok.org/)
+- [MySQL](https://www.mysql.com/)
 
 ## Built with:
 
