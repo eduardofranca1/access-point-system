@@ -1,6 +1,7 @@
 # User Point Control System with Spring Boot
+![check point](https://user-images.githubusercontent.com/18031693/125149252-3599dd80-e10e-11eb-87fa-cd69202fd66e.png)
 
-​																						System created by me for [Santander Bootcamp](https://app.becas-santander.com/pt-BR/program/santanderbootcamp)
+<p align="center">System created by me for <a href="https://app.becas-santander.com/pt-BR/program/santanderbootcamp">Santander Bootcamp</a></p>
 
 ## Technologies:
 
@@ -23,6 +24,3 @@
 - [Insomnia](https://insomnia.rest/)
 - [MySQL Workbench - For Prod](https://www.mysql.com/products/workbench/)
 - [H2 - For Test](http://localhost:8080/h2-console/)
-
-
-
