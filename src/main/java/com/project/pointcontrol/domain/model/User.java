@@ -8,6 +8,7 @@ import javax.persistence.*;
 import javax.validation.Valid;
 import javax.validation.constraints.NotEmpty;
 import javax.validation.constraints.NotNull;
+import javax.validation.constraints.Size;
 import java.io.Serializable;
 import java.math.BigDecimal;
 import java.time.LocalDateTime;
@@ -25,6 +26,7 @@ public class User implements Serializable {
     private String id;
 
     @NotEmpty(message = "{name.notempty}")
+    @Size(min = 2, max = 100)
     private String name;
 
     @NotNull(message = "{startJourney.notnull}")

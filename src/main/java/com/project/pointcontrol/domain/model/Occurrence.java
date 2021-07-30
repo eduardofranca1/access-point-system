@@ -4,6 +4,7 @@ import lombok.*;
 
 import javax.persistence.*;
 import javax.validation.constraints.NotEmpty;
+import javax.validation.constraints.Size;
 import java.io.Serializable;
 
 @Getter
@@ -19,8 +20,10 @@ public class Occurrence implements Serializable {
     private Long id;
 
     @NotEmpty(message = "{name.notempty}")
+    @Size(max = 50)
     private String name;
 
     @NotEmpty(message = "{description.notempty}")
+    @Size(max = 255)
     private String description;
 }

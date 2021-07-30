@@ -4,6 +4,7 @@ import lombok.*;
 
 import javax.persistence.*;
 import javax.validation.constraints.NotEmpty;
+import javax.validation.constraints.Size;
 import java.io.Serializable;
 
 @Getter
@@ -18,6 +19,7 @@ public class UserCategory implements Serializable {
     private Long id;
 
     @NotEmpty(message = "{description.notempty}")
+    @Size(max = 50)
     private String description;
 
 }

@@ -6,6 +6,7 @@ import javax.persistence.*;
 import javax.validation.Valid;
 import javax.validation.constraints.NotEmpty;
 import javax.validation.constraints.NotNull;
+import javax.validation.constraints.Size;
 import java.io.Serializable;
 import java.math.BigDecimal;
 import java.time.LocalDateTime;
@@ -33,6 +34,7 @@ public class AnnualLeave implements Serializable {
     private BigDecimal balanceHours;
 
     @NotEmpty(message = "{name.notempty}")
+    @Size(max = 20)
     private String userCategory;
 
     @Embedded
